@@ -1,0 +1,5 @@
+pytubefix
+youtube_search
+python-dotenv  
+beautifulsoup4 
+requests
