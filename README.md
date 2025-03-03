@@ -41,6 +41,16 @@ Now you can run the scipt. Provide the output path as an argument to the script 
   python3 main.py /absolute/output/path userid123456789 preserve
 ```
 
+## Configuration
+In order to run this script locally, you must create a .env file in modules directory. Make sure you have your spotify API credentials and you can initialize the file as follows:
+
+
+```bash
+  CLIENT_ID = "your_client_id"
+  SECRET_ID = "your_secret_id"
+
+```
+
 ## Usage
 You have to pass 3 arguments to the script: output path, user id and a download mode. The download mode is either "preserve" or "no-preserve". The preserve mode will preserve the playlist structure creating a subdirectory for each playlist with the same name, while the no-preserve mode will download all the tracks togheter in the single directory specified in the first argument. 
     
