@@ -38,6 +38,9 @@ after that, run on the current python environment:
 Now you can run the scipt. Provide the output path as an argument to the script and the spotify user id. The script will download every track in every playlist owned by the user provided, organizing files in directories according to the playlists' names.
 
 ```bash
-  python3 main.py /absolute/output/path userid123456789
+  python3 main.py /absolute/output/path userid123456789 preserve
 ```
+
+## Usage
+You have to pass 3 arguments to the script: output path, user id and a download mode. The download mode is either "preserve" or "no-preserve". The preserve mode will preserve the playlist structure creating a subdirectory for each playlist with the same name, while the no-preserve mode will download all the tracks togheter in the single directory specified in the first argument. 
     
