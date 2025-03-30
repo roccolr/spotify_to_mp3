@@ -2,7 +2,7 @@
 # spotify_to_mp3
 
 A simple tool to download all your favorite tracks in good quality mp3s.
-The script is designed to work on a Linux based machine, so if you are a Windows user plase consider using wsl. 
+The script is designed to work on a Linux based machine, so if you are a Windows user please consider using wsl. 
 
 
 
